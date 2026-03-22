@@ -1,6 +1,5 @@
 include:
   - board: seeeduino_xiao_ble
-      shield: Crypto_left
+    shield: Crypto_left
   - board: seeeduino_xiao_ble
-      shield: Crypto_right
-    
+    shield: Crypto_right
