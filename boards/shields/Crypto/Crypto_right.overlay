@@ -1,5 +1,3 @@
-#include <dt-bindings/zmk/outputs.h>
-
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -11,21 +9,22 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&xiao_d 0 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 1 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 2 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 3 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 4 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 5 GPIO_ACTIVE_HIGH>
-            , <&xiao_d 6 GPIO_ACTIVE_HIGH>
+            = <&xiao_d 1 GPIO_ACTIVE_HIGH> // COL0 (Pad 2)
+            , <&xiao_d 2 GPIO_ACTIVE_HIGH> // COL1 (Pad 3)
+            , <&xiao_d 3 GPIO_ACTIVE_HIGH> // COL2 (Pad 4)
+            , <&xiao_d 4 GPIO_ACTIVE_HIGH> // COL3 (Pad 5)
+            , <&xiao_d 5 GPIO_ACTIVE_HIGH> // COL4 (Pad 6)
+            , <&xiao_d 6 GPIO_ACTIVE_HIGH> // COL5 (Pad 7)
+            , <&gpio0 9 GPIO_ACTIVE_HIGH>  // COL6 (Pad 17 - The "Secret" 12th pin)
             ;
 
         row-gpios
-            = <&xiao_d 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&xiao_d 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&xiao_d 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&xiao_d 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&xiao_d 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW0 (Pad 1)
+            , <&xiao_d 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW1 (Pad 11)
+            , <&xiao_d 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW2 (Pad 12)
+            , <&xiao_d 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW3 (Pad 13)
+            , <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW4 (Pad 14)
             ;
     };
 };
+
