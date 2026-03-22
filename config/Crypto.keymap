@@ -5,7 +5,6 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-
         default_layer {
             bindings = <
 /* --- LEFT SIDE (35 keys) --- */
