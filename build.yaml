@@ -1,5 +1,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: Crypto_left
+    config_path: "."
   - board: seeeduino_xiao_ble
     shield: Crypto_right
+    config_path: "."
