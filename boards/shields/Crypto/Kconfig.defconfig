@@ -1,0 +1,6 @@
+if SHIELD_CRYPTO_LEFT || SHIELD_CRYPTO_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Crypto"
+
+endif
