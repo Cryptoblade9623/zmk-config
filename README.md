@@ -6,31 +6,21 @@ I also just think that split keyboards are cool.
 It uses the Seeeduino XIAO BLE nRF52840.
 It has bluetooth communication capabilities and has a USB-C port.
 
-Image
+Images
 <img width="1092" height="612" alt="image" src="https://github.com/user-attachments/assets/817218c6-bb25-4918-a070-193caee5ebe7" />
 Above is my Split keyboard design on Fusion360.
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/101f3681-8d2a-4607-8077-ce4388d8cd18" />
+Above is my PCB design.
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/c88a9404-b64b-4875-88ad-ca7c44d1e788" />
+Above is the root sheet for the schematics.
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/cdf65643-f08c-4137-90e8-cfbc9815b11e" />
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/4715a54f-e159-4b1a-9f50-eb7c50d97779" />
+Above are the left then right schematics sheets.
 
 Status
 I have designed everything (hopefully) like the firmware, PCB and schematics.
 I have also created the BOM.
 I will start assembly when it is approved and i buy the parts needed.
-
-BOM
-Name	                     Purpose	                          Units Total	            Total (USD)    	Distributor
-Male header pin row        For soldering Seeeduino to PCB    	1     	                $1.31	          AliExpress
-Battery	                   To supply power                   	1	Pair                  $9.18	          AliExpress
-Screws                   	 Secure keyboard parts	            1 Pack	                $1.31	          AliExpress
-Mounting screws	           Secure PCB in place	              1 Pack	                $0.74	          AliExpress
-Threaded insert	           Housing for screws               	1 Pack                	$1.64	          AliExpress
-PCB	                       Main circuit board               	1 Pack                	$14.38	        JLCPCB
-Diodes	                   Direct current one way            	1 Pack	                $5.57	          AliExpress
-Hall sensors	             Magnetic detection 	              3 Packs	                $11.51   	      AliExpress
-Magnets                    Connect halves together	          1 Pack                	$1.31         	AliExpress
-Sliding Switches           Power On/Off                     	1	Pack                  $5.10          	Amazon
-Stabilizers                Support for larger keycaps	        2	                      $4.44	          AliExpress
-Key Switches	             Register key strokes	              1 Pack                	$45.27         	AliExpress
-Seeeduino (2pcs)         	 Main controllers	                  1 Pair	                $38.42        	AliExpress
-Keycaps	                   Key labels	                        1 Set                 	$16.79	        AliExpress
 
 Assembly instructions
 1. Solder the diodes and hall sensors.
@@ -52,3 +42,20 @@ Assembly instructions
 17. Pair both the halves together.
 18. Test the keyboard.
 I have not actually built the keyboard yet.
+
+BOM
+Name	                     Purpose	                          Units Total	            Total (USD)    	Distributor
+Male header pin row        For soldering Seeeduino to PCB    	1     	                $1.31	          AliExpress
+Battery	                   To supply power                   	1	Pair                  $9.18	          AliExpress
+Screws                   	 Secure keyboard parts	            1 Pack	                $1.31	          AliExpress
+Mounting screws	           Secure PCB in place	              1 Pack	                $0.74	          AliExpress
+Threaded insert	           Housing for screws               	1 Pack                	$1.64	          AliExpress
+PCB	                       Main circuit board               	1 Pack                	$14.38	        JLCPCB
+Diodes	                   Direct current one way            	1 Pack	                $5.57	          AliExpress
+Hall sensors	             Magnetic detection 	              3 Packs	                $11.51   	      AliExpress
+Magnets                    Connect halves together	          1 Pack                	$1.31         	AliExpress
+Sliding Switches           Power On/Off                     	1	Pack                  $5.10          	Amazon
+Stabilizers                Support for larger keycaps	        2	                      $4.44	          AliExpress
+Key Switches	             Register key strokes	              1 Pack                	$45.27         	AliExpress
+Seeeduino (2pcs)         	 Main controllers	                  1 Pair	                $38.42        	AliExpress
+Keycaps	                   Key labels	                        1 Set                 	$16.79	        AliExpress
