@@ -109,10 +109,3 @@ I worked on creating the schematics and once I finished that I added the sutom f
 ![image](https://stasis.hackclub-assets.com/images/1773602754920-pe4pq8.png)
 ![image](https://stasis.hackclub-assets.com/images/1773602795293-zsuzj7.png)
 
-# 8/18/2026 11 PM - Case
-
-_Time spent: 5h_
-
-I started solder because all but one of my parts are here. It took me a while to get started and perfect sort of my soldering technique and I managed to waste two whole boards the process. To day I soldered all of the diodes onto the left half of the keyboard.
-<img width="1152" height="2048" alt="image" src="https://github.com/user-attachments/assets/b8e58332-2afe-4252-876b-fafa8909f062" />
-
